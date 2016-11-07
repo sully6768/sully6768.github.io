@@ -3,7 +3,44 @@ layout: post
 title: What''s New in JBoss Fuse 6.3
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+JBoss Fuse 6.3 released recently and contains a number of updates.  They include:
+
+Take advantage of new connectors to:
+--access ServiceNow REST APIs
+--bridge with Apache Spark computations
+--use MQTT to message Eclipse Paho clients
+--interface with Slack messaging and Kubernetes
+--create Acrobat PDF documents
+
+Updates to tooling mean you can now:
+--install in one step
+--get started with projects more easily using the integration wizard
+--use automated wiring on the design canvas
+--create a global endpoint
+--test quickly using Camel Context
+--develop custom connectors (integrated with product tooling)
+
+Other improvements include:
+- stabilization fixes, especially for Fabric8
+- newer versions included for Apache Camel (2.17), Apache CXF (3.1), and Jetty (9)
+- full support for version 6.x (extended through January 2018)
+
+
+Over the next month or so I will be stepping through a number of the updates to give you an idea of what the impacts are of each addition are.
+
+So where to start...  
+
+IMHO probably one of the biggest improvements, from a developers perspective, are the tooling updates for the Fuse IDE.  To start with JBoss Fuse IDE  get a greatly improved graphical diagram editor 
+
+It might be easier to go through and get hands on to give you a better idea of how much its improved.
+
+To start with lets get it installed. For the hands on portion I will be using the JBoss Developer Studio 9.x environment which is based on Eclipse.
+
+To install the tooling for JBoss Fuse open the Red Hat Central screen which can be accessed by clicking the Red Hat logo on the tool bar:
+
+![_config.yml]({{ site.baseurl }}/images/toolbar-rhcentral-pointer.png)
+
+
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
