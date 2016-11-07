@@ -22,7 +22,7 @@ To start with lets get it installed. For the hands on portion I will be using th
 
 To install the tooling for JBoss Fuse open the Red Hat Central screen which can be accessed by clicking the Red Hat logo on the tool bar:
 
-![_config.yml]({{ site.baseurl }}/images/20161107/toolbar-rhcentral-pointer.png)
+![Red Hat Central Button]({{ site.baseurl }}/images/20161107/toolbar-rhcentral-pointer.png)
 
 
 
