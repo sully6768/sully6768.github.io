@@ -26,7 +26,15 @@ To install the tooling for JBoss Fuse open the Red Hat Central screen which can 
 
 ![Red Hat Central Button]({{ site.baseurl }}/images/20161107/toolbar-rhcentral-pointer.png)
 
+When the screen appears, click the Software/Update tab at the bottom of the screen:
+
 ![Red Hat Central Button]({{ site.baseurl }}/images/20161107/rhc-screen.png)
+
+Finally, select the JBoss Fuse Development tools from the list of available installations. 
+
+```
+**Note:** There is currently an issue if you have both the JBoss Fuse and Spring IDE tools both installed in the IDE. The Spring IDE tooling will cause new Fuse projects to ignore the Camel project facets and you will miss out on the design tools.
+```
 
 ![Red Hat Central Button]({{ site.baseurl }}/images/20161107/rhc-fuse-tools-install.png)
 
