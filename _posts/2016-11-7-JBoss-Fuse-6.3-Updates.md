@@ -24,8 +24,23 @@ To install the tooling for JBoss Fuse open the Red Hat Central screen which can 
 
 ![Red Hat Central Button]({{ site.baseurl }}/images/20161107/toolbar-rhcentral-pointer.png)
 
-
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
+{% highlight java %}
+protected RouteBuilder createRouteBuilder() throws Exception {
+    return new RouteBuilder() {
+        @Override
+        public void configure() throws Exception {
+            rest("/say")
+                .get("/hello").to("direct:hello")
+                .get("/bye").consumes("application/json").to("direct:bye")
+                .post("/bye").to("mock:update");
+ 
+            from("direct:hello")
+                .transform().constant("Hello World");
+            from("direct:bye")
+                .transform().constant("Bye World");
+        }
+    };
+}
+{% endhighlight %}
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
