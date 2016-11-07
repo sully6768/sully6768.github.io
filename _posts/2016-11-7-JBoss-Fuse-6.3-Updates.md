@@ -5,25 +5,9 @@ title: What''s New in JBoss Fuse 6.3
 
 JBoss Fuse 6.3 released recently and contains a number of updates.  They include:
 
-Take advantage of new connectors to:
---access ServiceNow REST APIs
---bridge with Apache Spark computations
---use MQTT to message Eclipse Paho clients
---interface with Slack messaging and Kubernetes
---create Acrobat PDF documents
+* New versions included for Apache Camel (2.17), Apache CXF (3.1), and Jetty (9)
+* New components including Kubernetes, Slack, ServiceNow, Apache Spark, PDF and Paho.
 
-Updates to tooling mean you can now:
---install in one step
---get started with projects more easily using the integration wizard
---use automated wiring on the design canvas
---create a global endpoint
---test quickly using Camel Context
---develop custom connectors (integrated with product tooling)
-
-Other improvements include:
-- stabilization fixes, especially for Fabric8
-- newer versions included for Apache Camel (2.17), Apache CXF (3.1), and Jetty (9)
-- full support for version 6.x (extended through January 2018)
 
 
 Over the next month or so I will be stepping through a number of the updates to give you an idea of what the impacts are of each addition are.
