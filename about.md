@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Scott: Husband, father, grandfather, coder, committer, advisor Avengers Fan (The BIGGEST), and a die hard Minnesota United Loony
+
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+TBD... give me a break. I am just getting started.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[me@scottes.io](mailto:me@scottes.io)
