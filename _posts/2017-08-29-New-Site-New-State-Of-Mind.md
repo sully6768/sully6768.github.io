@@ -10,4 +10,5 @@ Recently I was reminded, through a spirited dialog regarding MSAs (microservices
 And if I am unwilling to share what I have learned as well as allow myself to receive feedback upon my own speculations and musings, then have I actually learned at all or have I just built a paper kingdom for my ego?
 
 _Hold your breath, Make a wish, Count to three..._
+
  -- Willey Wonka
