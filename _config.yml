@@ -6,7 +6,7 @@
 name: Scott England-Sullivan
 
 # Short bio or description (displayed in the header)
-description: Specialist Sales Architect, Integration, Red Hat NA Public Sector
+description: Principal Domain Architect, Integration, Red Hat NA Public Sector
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars1.githubusercontent.com/u/609724?v=3&s=200 
@@ -37,7 +37,7 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
+google_analytics: UA-105621866-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
