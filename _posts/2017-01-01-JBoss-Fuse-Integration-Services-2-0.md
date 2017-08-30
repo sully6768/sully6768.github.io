@@ -3,8 +3,8 @@ layout: post
 title: JBoss Fuse Integration Services 2.0
 ---
 
-![JBoss Fuse Integration Services Architecture]({{ site.baseurl }}/images/20170101/FIS.png){:class="img-responsive"} 
-As an Integration Architect I am pretty excited about the latest release from Red Hat. JBoss Fuse Integration Services 2.0 (FIS), went GA this week bringing a new level of simple, yet very powerful MSA framework to the OpenShift Container Platform (OCP). JBoss FIS 2.0 brings powerful and popular tools to organizations including:
+
+As an Integration Architect I am pretty excited about the latest release from Red Hat.![JBoss Fuse Integration Services Architecture]({{ site.baseurl }}/images/20170101/FIS.png){:class="img-responsive"} JBoss Fuse Integration Services 2.0 (FIS), went GA this week bringing a new level of simple, yet very powerful MSA framework to the OpenShift Container Platform (OCP). JBoss FIS 2.0 brings powerful and popular tools to organizations including:
 
  * JBoss Fuse Karaf and SpringBoot docker-formatted container images
  * Tools for the creation, development, and building of containerized JBoss Fuse applications
@@ -15,19 +15,19 @@ As an Integration Architect I am pretty excited about the latest release from Re
 
 ## More Than Just a Pretty Integration Platform
 
-As an architect and developer, JBoss Fuse gives me so many ways to tackle a problem with few limitations. ![The Camel Charger Cable](../images/20170101/camel-charging-cable-v2.png =600x "The Camel Charger Cable")It offers one of the most robust and feature rich integration platforms in middleware today. Bringing together Apache Camel with Apache CXF and Apache A-MQ messaging. JBoss Fuse includes several hundred out-of-the-box messaging protocols, patterns, and management components using unique code reducing DSLs. The last thing I want to do is try to write 100s of lines of code necessary to create a connection between two points, then expose it to management systems and finally ensure its resilient.
+As an architect and developer, JBoss Fuse gives me so many ways to tackle a problem with few limitations.![The Camel Charger Cable](../images/20170101/camel-charging-cable-v2.png "The Camel Charger Cable"){:class="img-responsive"} It offers one of the most robust and feature rich integration platforms in middleware today. Bringing together Apache Camel with Apache CXF and Apache A-MQ messaging. JBoss Fuse includes several hundred out-of-the-box messaging protocols, patterns, and management components using unique code reducing DSLs. The last thing I want to do is try to write 100s of lines of code necessary to create a connection between two points, then expose it to management systems and finally ensure its resilient.
 
 
 And while I can probably link together dozens of projects, if I had to, why would I? I get all of that and more with minimal code when using JBoss Fuse.
 
-![Camel Spring DSL](../images/20170101/camel-code.png =800x "Camel Spring DSL")
+![Camel Spring DSL](../images/20170101/camel-code.png "Camel Spring DSL"){:class="img-responsive"}
 
 Now as a whole these components offer organizations tremendous flexibility when needing to quickly enable a communications between a vast number of applications. MSA doesn't want the whole though, decentralization is the expectation. MSAs offers increased velocity and agility to organizations plus choice to developers. This comes with trade offs though: tribal knowledge within small and fragile teams exacerbated by a sprawl of development frameworks. Each group trying to reinvent the wheel as it looks to deliver legacy systems into the modern age.
 
 ## Decentralization Still Requires Integration
 
 
-With the latest arrival of JBoss FIS, one now has all the connectivity goodness of JBoss Fuse but now at a massive scale. JBoss FIS, which is deployed on OpenShift, brings the highly modular framework to the containerized world delivering on the promise of increased agility and velocity while creating developer choice as well as consistency across your organization. Product teams benefit from global knowledge repositories and best practices while organizations limit the impacts of framework sprawl which ultimately leads to more resilient and agile systems.
+With the latest arrival of JBoss FIS, one now has all the connectivity goodness of JBoss Fuse but now at a massive scale.![The Camel Charger Cable](../images/20170101/computer-charger.png){:class="img-responsive"} JBoss FIS, which is deployed on OpenShift, brings the highly modular framework to the containerized world delivering on the promise of increased agility and velocity while creating developer choice as well as consistency across your organization. Product teams benefit from global knowledge repositories and best practices while organizations limit the impacts of framework sprawl which ultimately leads to more resilient and agile systems.
 
 Whether we like it or not, the fact is organization still depends heavily on monolithic and centralized systems like big Mainframes, SalesForce CRMs, SAP, Medical Record Systems, etc. Not everything is greenfield and no amount of app factoring will change that. Yet we in the developer channel have been commanded to move this legacy tank towards a Mode 2 world using MSA. So doesn't it make sense to find not only a consistent development framework and practice but one where I can readily find the resources I need to deliver it? JBoss FIS is worth a look in that department. Just give it a go. I believe you will find it gives your organization the ability to meet these demands and speed their exposure to modern architectures.
 
