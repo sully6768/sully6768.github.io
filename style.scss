@@ -106,9 +106,9 @@ strong, b {
   font-weight: bold;
 }
 
-// img {
-//  max-width: 100%;
-//}
+img {
+  max-width: 100%;
+}
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
@@ -283,22 +283,6 @@ footer {
   text-align: center;
 }
 
-// Custom Elements
-.image-right {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-  width: 600px;
-}
-
-.image-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: center;
-  width: 600px;
-}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
