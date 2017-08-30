@@ -2,22 +2,7 @@
 layout: post
 title: JBoss Fuse Integration Services 2.0
 ---
-<style type="text/css">
-.image-right {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-  width=800px;
-}
-.image-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  float: center;
-  width: 800px;
-}
-</style>
+
 
 ![JBoss Fuse Integration Services Architecture]({{ site.baseurl }}/images/20170101/FIS.png){: .image-right}As an Integration Architect I am pretty excited about the latest release from Red Hat. JBoss Fuse Integration Services 2.0 (FIS), went GA this week bringing a new level of simple, yet very powerful MSA framework to the OpenShift Container Platform (OCP). JBoss FIS 2.0 brings powerful and popular tools to organizations including:
 
