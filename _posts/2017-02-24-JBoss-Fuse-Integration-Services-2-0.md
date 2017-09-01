@@ -16,7 +16,7 @@ commentIssueId: 12
 
 ## More Than Just a Pretty Integration Platform
 
-![The Camel Charger Cable](../images/20170101/camel-charging-cable-v2.png "The Camel Charger Cable"){: .image-right}As an architect and developer, JBoss Fuse gives me so many ways to tackle a problem with few limitations. It offers one of the most robust and feature rich integration platforms in middleware today. Bringing together Apache Camel with Apache CXF and Apache A-MQ messaging. JBoss Fuse includes several hundred out-of-the-box messaging protocols, patterns, and management components using unique code reducing DSLs. The last thing I want to do is try to write 100s of lines of code necessary to create a connection between two points, then expose it to management systems and finally ensure its resilient.
+<img align="right" src="../images/20170101/camel-charging-cable-v2.png">As an architect and developer, JBoss Fuse gives me so many ways to tackle a problem with few limitations. It offers one of the most robust and feature rich integration platforms in middleware today. Bringing together Apache Camel with Apache CXF and Apache A-MQ messaging. JBoss Fuse includes several hundred out-of-the-box messaging protocols, patterns, and management components using unique code reducing DSLs. The last thing I want to do is try to write 100s of lines of code necessary to create a connection between two points, then expose it to management systems and finally ensure its resilient.
 
 
 And while I can probably link together dozens of projects, if I had to, why would I? I get all of that and more with minimal code when using JBoss Fuse.
