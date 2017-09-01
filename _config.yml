@@ -85,7 +85,7 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-cayman
 
 plugins:
   - jekyll-mentions
