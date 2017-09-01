@@ -13,11 +13,9 @@ commentIssueId: 12
  * Native integration with Kubernetes for service discovery, clustering, and configuration management
  * Based on JBoss Fuse core technologies: Apache Camel, Apache CXF, Apache ActiveMQ
  
-
 ## More Than Just a Pretty Integration Platform
 
-As an architect and developer, JBoss Fuse gives me so many ways to tackle a problem with few limitations. It offers one of the most robust and feature rich integration platforms in middleware today. Bringing together Apache Camel with Apache CXF and Apache A-MQ messaging. JBoss Fuse includes several hundred out-of-the-box messaging protocols, patterns, and management components using unique code reducing DSLs. The last thing I want to do is try to write 100s of lines of code necessary to create a connection between two points, then expose it to management systems and finally ensure its resilient.![The Camel Charger Cable](../images/20170101/camel-charging-cable-v2.png "The Camel Charger Cable"){: .image-right}
-
+![The Camel Charger Cable](../images/20170101/camel-charging-cable-v2.png "The Camel Charger Cable"){: .image-right}As an architect and developer, JBoss Fuse gives me so many ways to tackle a problem with few limitations. It offers one of the most robust and feature rich integration platforms in middleware today. Bringing together Apache Camel with Apache CXF and Apache A-MQ messaging. JBoss Fuse includes several hundred out-of-the-box messaging protocols, patterns, and management components using unique code reducing DSLs. The last thing I want to do is try to write 100s of lines of code necessary to create a connection between two points, then expose it to management systems and finally ensure its resilient.
 
 And while I can probably link together dozens of projects, if I had to, why would I? I get all of that and more with minimal code when using JBoss Fuse.
 
@@ -26,7 +24,6 @@ And while I can probably link together dozens of projects, if I had to, why woul
 Now as a whole these components offer organizations tremendous flexibility when needing to quickly enable a communications between a vast number of applications. MSA doesn't want the whole though, decentralization is the expectation. MSAs offers increased velocity and agility to organizations plus choice to developers. This comes with trade offs though: tribal knowledge within small and fragile teams exacerbated by a sprawl of development frameworks. Each group trying to reinvent the wheel as it looks to deliver legacy systems into the modern age.
 
 ## Decentralization Still Requires Integration
-
 
 ![The Camel Charger Cable](../images/20170101/computer-charger.jpg){:class="img-right"}With the latest arrival of JBoss FIS, one now has all the connectivity goodness of JBoss Fuse but now at a massive scale. JBoss FIS, which is deployed on OpenShift, brings the highly modular framework to the containerized world delivering on the promise of increased agility and velocity while creating developer choice as well as consistency across your organization. Product teams benefit from global knowledge repositories and best practices while organizations limit the impacts of framework sprawl which ultimately leads to more resilient and agile systems.
 
